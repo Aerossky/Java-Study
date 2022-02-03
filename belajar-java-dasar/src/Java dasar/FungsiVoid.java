@@ -7,12 +7,21 @@
  *
  * @author MSI
  */
-public class ForLoop {
+public class FungsiVoid {
+
     public static void main(String[] args) {
-        for(int a =10; 5 < a; a--){
-            System.out.println("for loop ke- " +a);
-        
+        double number = 10;
+        int hasil = 0;
+
+        for (int i = 1; i < number; i++) {
+
+            if (i % 3 == 0 || i % 5 == 0) {
+             
+                hasil = i + hasil;
+               
+            }
+
         }
+         System.out.println(hasil);
     }
-   
 }

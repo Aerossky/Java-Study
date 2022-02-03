@@ -7,12 +7,19 @@
  *
  * @author MSI
  */
-public class ForLoop {
+public class WhileLoop {
+
     public static void main(String[] args) {
-        for(int a =10; 5 < a; a--){
-            System.out.println("for loop ke- " +a);
+        int a =0;
+        boolean kondisi = true;
         
+        while (kondisi ) {
+            System.out.println("While Loop ke " + a);
+            a++;
+            if(a == 10){
+                kondisi = false;
+            }
         }
+        System.out.println("Ini adalah akhir program");
     }
-   
 }

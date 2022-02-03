@@ -7,9 +7,8 @@
  *
  * @author MSI
  */
-public class DoWhileLoop {
-
-    public static void main(String[] args) {
+public class tes {
+     public static void main(String[] args) {
         int a = 0;
         boolean kondisi = true;
 
